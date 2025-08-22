@@ -9,5 +9,5 @@
 </div>
 
 # This repo is just to make updated versions
-For bug fixes and issues fix
-I'm not the one who writes this code but i sometimes help. If you want to contribute to the project go to the original Quickemu repo.
+<p>For bug fixes and issues fix.</p>
+<p>I'm not the one who writes this code but i sometimes help. If you want to contribute to the project go to the original Quickemu repo.</p>
