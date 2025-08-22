@@ -23,7 +23,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          APP_VERSION=$(grep "^readonly VERSION" quickemu | cut -d'"' -f2)
+          APP_VERSION=latest
           GIT_VERSION=$(git describe --tags | cut -d'-' -f1)
           echo "App version: ${REL_VERSION}"
           echo "Git version: ${GIT_VERSION}"
